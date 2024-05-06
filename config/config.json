@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "request-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/requestForm/RequestFormWebPart.js",
+          "manifest": "./src/webparts/requestForm/RequestFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RequestFormWebPartStrings": "lib/webparts/requestForm/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "request-from-client-side-solution",
+    "id": "72d26860-b0ea-47c1-af6f-9c1efd12fca5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "RequestFrom description"
+      },
+      "longDescription": {
+        "default": "RequestFrom description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "request-from Feature",
+        "description": "The feature that activates elements of the request-from solution.",
+        "id": "874eca4b-caf9-48a2-a1e0-03acad357bfc",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/request-from.sppkg"
+  }
+}
